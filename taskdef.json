@@ -27,6 +27,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "512",
   "memory": "1024",
-  "family": "wsi-taskdef-stress"
+  "family": "wsi-taskdef-stress",
+  "networkMode": "awsvpc"
 }
 
